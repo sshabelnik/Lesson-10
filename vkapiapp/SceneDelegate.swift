@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  RequestsLesson
+//  vkapiapp
 //
-//  Created by Ильдар Залялов on 13.12.2019.
-//  Copyright © 2019 Ildar Zalyalov. All rights reserved.
+//  Created by Сергей Шабельник on 29.01.2020.
+//  Copyright © 2020 Сергей Шабельник. All rights reserved.
 //
 
 import UIKit

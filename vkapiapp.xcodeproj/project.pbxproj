@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A906309E23E1EC19005BD9D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906309D23E1EC19005BD9D8 /* AppDelegate.swift */; };
+		A90630A023E1EC19005BD9D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A906309F23E1EC19005BD9D8 /* SceneDelegate.swift */; };
+		A90630A223E1EC19005BD9D8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90630A123E1EC19005BD9D8 /* LoginViewController.swift */; };
+		A90630A523E1EC19005BD9D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90630A323E1EC19005BD9D8 /* Main.storyboard */; };
+		A90630A823E1EC19005BD9D8 /* vkapiapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A90630A623E1EC19005BD9D8 /* vkapiapp.xcdatamodeld */; };
+		A90630AA23E1EC1C005BD9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90630A923E1EC1C005BD9D8 /* Assets.xcassets */; };
+		A90630AD23E1EC1C005BD9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90630AB23E1EC1C005BD9D8 /* LaunchScreen.storyboard */; };
+		A90630B723E1EDF4005BD9D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90630B623E1EDF4005BD9D8 /* NetworkManager.swift */; };
+		A99381C823E1F10100FF5839 /* AccessTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381C723E1F10100FF5839 /* AccessTokenModel.swift */; };
+		A99381CD23E2E3FD00FF5839 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381CB23E2E3FD00FF5839 /* ProfileInfoCell.swift */; };
+		A99381CE23E2E3FD00FF5839 /* ProfileInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99381CC23E2E3FD00FF5839 /* ProfileInfoCell.xib */; };
+		A99381D023E2E71700FF5839 /* ProfileInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381CF23E2E71700FF5839 /* ProfileInfoModel.swift */; };
+		A99381D223E2EADF00FF5839 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381D123E2EADF00FF5839 /* Helper.swift */; };
+		A9E9C18823E2F74C006D1EAC /* ReloadDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9C18723E2F74C006D1EAC /* ReloadDataDelegate.swift */; };
+		A9E9C18A23E2FB5C006D1EAC /* UserWallTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9C18923E2FB5C006D1EAC /* UserWallTableViewController.swift */; };
+		A9E9C18C23E42B46006D1EAC /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9C18B23E42B46006D1EAC /* UserDefaultsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A906309A23E1EC19005BD9D8 /* vkapiapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vkapiapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A906309D23E1EC19005BD9D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A906309F23E1EC19005BD9D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A90630A123E1EC19005BD9D8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A90630A423E1EC19005BD9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A90630A723E1EC19005BD9D8 /* vkapiapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = vkapiapp.xcdatamodel; sourceTree = "<group>"; };
+		A90630A923E1EC1C005BD9D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90630AC23E1EC1C005BD9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90630AE23E1EC1C005BD9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90630B623E1EDF4005BD9D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A99381C723E1F10100FF5839 /* AccessTokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenModel.swift; sourceTree = "<group>"; };
+		A99381CB23E2E3FD00FF5839 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCell.swift; sourceTree = "<group>"; };
+		A99381CC23E2E3FD00FF5839 /* ProfileInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoCell.xib; sourceTree = "<group>"; };
+		A99381CF23E2E71700FF5839 /* ProfileInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoModel.swift; sourceTree = "<group>"; };
+		A99381D123E2EADF00FF5839 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A9E9C18723E2F74C006D1EAC /* ReloadDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadDataDelegate.swift; sourceTree = "<group>"; };
+		A9E9C18923E2FB5C006D1EAC /* UserWallTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWallTableViewController.swift; sourceTree = "<group>"; };
+		A9E9C18B23E42B46006D1EAC /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A906309723E1EC19005BD9D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A906309123E1EC19005BD9D8 = {
+			isa = PBXGroup;
+			children = (
+				A906309C23E1EC19005BD9D8 /* vkapiapp */,
+				A906309B23E1EC19005BD9D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A906309B23E1EC19005BD9D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A906309A23E1EC19005BD9D8 /* vkapiapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A906309C23E1EC19005BD9D8 /* vkapiapp */ = {
+			isa = PBXGroup;
+			children = (
+				A99381CA23E2E3D900FF5839 /* Views */,
+				A99381C923E2E23500FF5839 /* Controllers */,
+				A90630B523E1EDD0005BD9D8 /* DataManager */,
+				A90630B423E1EC2B005BD9D8 /* Models */,
+				A906309D23E1EC19005BD9D8 /* AppDelegate.swift */,
+				A906309F23E1EC19005BD9D8 /* SceneDelegate.swift */,
+				A90630A323E1EC19005BD9D8 /* Main.storyboard */,
+				A90630A923E1EC1C005BD9D8 /* Assets.xcassets */,
+				A90630AB23E1EC1C005BD9D8 /* LaunchScreen.storyboard */,
+				A90630AE23E1EC1C005BD9D8 /* Info.plist */,
+				A90630A623E1EC19005BD9D8 /* vkapiapp.xcdatamodeld */,
+				A99381D123E2EADF00FF5839 /* Helper.swift */,
+				A9E9C18723E2F74C006D1EAC /* ReloadDataDelegate.swift */,
+			);
+			path = vkapiapp;
+			sourceTree = "<group>";
+		};
+		A90630B423E1EC2B005BD9D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A99381C623E1F0DF00FF5839 /* NetworkModels */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A90630B523E1EDD0005BD9D8 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A90630B623E1EDF4005BD9D8 /* NetworkManager.swift */,
+				A9E9C18B23E42B46006D1EAC /* UserDefaultsManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		A99381C623E1F0DF00FF5839 /* NetworkModels */ = {
+			isa = PBXGroup;
+			children = (
+				A99381C723E1F10100FF5839 /* AccessTokenModel.swift */,
+				A99381CF23E2E71700FF5839 /* ProfileInfoModel.swift */,
+			);
+			path = NetworkModels;
+			sourceTree = "<group>";
+		};
+		A99381C923E2E23500FF5839 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A90630A123E1EC19005BD9D8 /* LoginViewController.swift */,
+				A9E9C18923E2FB5C006D1EAC /* UserWallTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A99381CA23E2E3D900FF5839 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A99381CB23E2E3FD00FF5839 /* ProfileInfoCell.swift */,
+				A99381CC23E2E3FD00FF5839 /* ProfileInfoCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A906309923E1EC19005BD9D8 /* vkapiapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90630B123E1EC1C005BD9D8 /* Build configuration list for PBXNativeTarget "vkapiapp" */;
+			buildPhases = (
+				A906309623E1EC19005BD9D8 /* Sources */,
+				A906309723E1EC19005BD9D8 /* Frameworks */,
+				A906309823E1EC19005BD9D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vkapiapp;
+			productName = vkapiapp;
+			productReference = A906309A23E1EC19005BD9D8 /* vkapiapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A906309223E1EC19005BD9D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Сергей Шабельник";
+				TargetAttributes = {
+					A906309923E1EC19005BD9D8 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = A906309523E1EC19005BD9D8 /* Build configuration list for PBXProject "vkapiapp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A906309123E1EC19005BD9D8;
+			productRefGroup = A906309B23E1EC19005BD9D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A906309923E1EC19005BD9D8 /* vkapiapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A906309823E1EC19005BD9D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90630AD23E1EC1C005BD9D8 /* LaunchScreen.storyboard in Resources */,
+				A99381CE23E2E3FD00FF5839 /* ProfileInfoCell.xib in Resources */,
+				A90630AA23E1EC1C005BD9D8 /* Assets.xcassets in Resources */,
+				A90630A523E1EC19005BD9D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A906309623E1EC19005BD9D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90630A223E1EC19005BD9D8 /* LoginViewController.swift in Sources */,
+				A90630A823E1EC19005BD9D8 /* vkapiapp.xcdatamodeld in Sources */,
+				A9E9C18C23E42B46006D1EAC /* UserDefaultsManager.swift in Sources */,
+				A9E9C18A23E2FB5C006D1EAC /* UserWallTableViewController.swift in Sources */,
+				A90630B723E1EDF4005BD9D8 /* NetworkManager.swift in Sources */,
+				A906309E23E1EC19005BD9D8 /* AppDelegate.swift in Sources */,
+				A90630A023E1EC19005BD9D8 /* SceneDelegate.swift in Sources */,
+				A99381D223E2EADF00FF5839 /* Helper.swift in Sources */,
+				A99381CD23E2E3FD00FF5839 /* ProfileInfoCell.swift in Sources */,
+				A99381C823E1F10100FF5839 /* AccessTokenModel.swift in Sources */,
+				A99381D023E2E71700FF5839 /* ProfileInfoModel.swift in Sources */,
+				A9E9C18823E2F74C006D1EAC /* ReloadDataDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A90630A323E1EC19005BD9D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90630A423E1EC19005BD9D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A90630AB23E1EC1C005BD9D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90630AC23E1EC1C005BD9D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90630AF23E1EC1C005BD9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90630B023E1EC1C005BD9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90630B223E1EC1C005BD9D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R79P9XH2G;
+				INFOPLIST_FILE = vkapiapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITIS.vkapiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90630B323E1EC1C005BD9D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9R79P9XH2G;
+				INFOPLIST_FILE = vkapiapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ITIS.vkapiapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A906309523E1EC19005BD9D8 /* Build configuration list for PBXProject "vkapiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90630AF23E1EC1C005BD9D8 /* Debug */,
+				A90630B023E1EC1C005BD9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90630B123E1EC1C005BD9D8 /* Build configuration list for PBXNativeTarget "vkapiapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90630B223E1EC1C005BD9D8 /* Debug */,
+				A90630B323E1EC1C005BD9D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A90630A623E1EC19005BD9D8 /* vkapiapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A90630A723E1EC19005BD9D8 /* vkapiapp.xcdatamodel */,
+			);
+			currentVersion = A90630A723E1EC19005BD9D8 /* vkapiapp.xcdatamodel */;
+			path = vkapiapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A906309223E1EC19005BD9D8 /* Project object */;
+}
