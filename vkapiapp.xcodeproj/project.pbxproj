@@ -15,11 +15,18 @@
 		A90630AA23E1EC1C005BD9D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90630A923E1EC1C005BD9D8 /* Assets.xcassets */; };
 		A90630AD23E1EC1C005BD9D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90630AB23E1EC1C005BD9D8 /* LaunchScreen.storyboard */; };
 		A90630B723E1EDF4005BD9D8 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90630B623E1EDF4005BD9D8 /* NetworkManager.swift */; };
+		A93AA1BB23E45DB4008DADDB /* ProfileInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AA1B923E45DB4008DADDB /* ProfileInfoTableViewCell.swift */; };
+		A93AA1BC23E45DB4008DADDB /* ProfileInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93AA1BA23E45DB4008DADDB /* ProfileInfoTableViewCell.xib */; };
+		A93AA1BF23E461FC008DADDB /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AA1BD23E461FC008DADDB /* PostTableViewCell.swift */; };
+		A93AA1C023E461FC008DADDB /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A93AA1BE23E461FC008DADDB /* PostTableViewCell.xib */; };
+		A93AA1C223E46290008DADDB /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AA1C123E46290008DADDB /* PostModel.swift */; };
+		A93AA1C423E5290B008DADDB /* PostCellParentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93AA1C323E5290B008DADDB /* PostCellParentDelegate.swift */; };
 		A99381C823E1F10100FF5839 /* AccessTokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381C723E1F10100FF5839 /* AccessTokenModel.swift */; };
-		A99381CD23E2E3FD00FF5839 /* ProfileInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381CB23E2E3FD00FF5839 /* ProfileInfoCell.swift */; };
-		A99381CE23E2E3FD00FF5839 /* ProfileInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A99381CC23E2E3FD00FF5839 /* ProfileInfoCell.xib */; };
 		A99381D023E2E71700FF5839 /* ProfileInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381CF23E2E71700FF5839 /* ProfileInfoModel.swift */; };
 		A99381D223E2EADF00FF5839 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99381D123E2EADF00FF5839 /* Helper.swift */; };
+		A9A7FFA723E562FE0072297E /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A7FFA623E562FE0072297E /* AppExtension.swift */; };
+		A9A7FFA923E98B9F0072297E /* UserWall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A7FFA823E98B9F0072297E /* UserWall.storyboard */; };
+		A9A7FFAB23E98EAB0072297E /* Authorization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9A7FFAA23E98EAB0072297E /* Authorization.storyboard */; };
 		A9E9C18823E2F74C006D1EAC /* ReloadDataDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9C18723E2F74C006D1EAC /* ReloadDataDelegate.swift */; };
 		A9E9C18A23E2FB5C006D1EAC /* UserWallTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9C18923E2FB5C006D1EAC /* UserWallTableViewController.swift */; };
 		A9E9C18C23E42B46006D1EAC /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E9C18B23E42B46006D1EAC /* UserDefaultsManager.swift */; };
@@ -36,11 +43,18 @@
 		A90630AC23E1EC1C005BD9D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90630AE23E1EC1C005BD9D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90630B623E1EDF4005BD9D8 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A93AA1B923E45DB4008DADDB /* ProfileInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoTableViewCell.swift; sourceTree = "<group>"; };
+		A93AA1BA23E45DB4008DADDB /* ProfileInfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoTableViewCell.xib; sourceTree = "<group>"; };
+		A93AA1BD23E461FC008DADDB /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		A93AA1BE23E461FC008DADDB /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		A93AA1C123E46290008DADDB /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
+		A93AA1C323E5290B008DADDB /* PostCellParentDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellParentDelegate.swift; sourceTree = "<group>"; };
 		A99381C723E1F10100FF5839 /* AccessTokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessTokenModel.swift; sourceTree = "<group>"; };
-		A99381CB23E2E3FD00FF5839 /* ProfileInfoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoCell.swift; sourceTree = "<group>"; };
-		A99381CC23E2E3FD00FF5839 /* ProfileInfoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileInfoCell.xib; sourceTree = "<group>"; };
 		A99381CF23E2E71700FF5839 /* ProfileInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoModel.swift; sourceTree = "<group>"; };
 		A99381D123E2EADF00FF5839 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		A9A7FFA623E562FE0072297E /* AppExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		A9A7FFA823E98B9F0072297E /* UserWall.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserWall.storyboard; sourceTree = "<group>"; };
+		A9A7FFAA23E98EAB0072297E /* Authorization.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authorization.storyboard; sourceTree = "<group>"; };
 		A9E9C18723E2F74C006D1EAC /* ReloadDataDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReloadDataDelegate.swift; sourceTree = "<group>"; };
 		A9E9C18923E2FB5C006D1EAC /* UserWallTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserWallTableViewController.swift; sourceTree = "<group>"; };
 		A9E9C18B23E42B46006D1EAC /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
@@ -76,19 +90,23 @@
 		A906309C23E1EC19005BD9D8 /* vkapiapp */ = {
 			isa = PBXGroup;
 			children = (
+				A90630A323E1EC19005BD9D8 /* Main.storyboard */,
+				A9A7FFA823E98B9F0072297E /* UserWall.storyboard */,
+				A9A7FFAA23E98EAB0072297E /* Authorization.storyboard */,
 				A99381CA23E2E3D900FF5839 /* Views */,
 				A99381C923E2E23500FF5839 /* Controllers */,
 				A90630B523E1EDD0005BD9D8 /* DataManager */,
 				A90630B423E1EC2B005BD9D8 /* Models */,
 				A906309D23E1EC19005BD9D8 /* AppDelegate.swift */,
 				A906309F23E1EC19005BD9D8 /* SceneDelegate.swift */,
-				A90630A323E1EC19005BD9D8 /* Main.storyboard */,
 				A90630A923E1EC1C005BD9D8 /* Assets.xcassets */,
 				A90630AB23E1EC1C005BD9D8 /* LaunchScreen.storyboard */,
 				A90630AE23E1EC1C005BD9D8 /* Info.plist */,
 				A90630A623E1EC19005BD9D8 /* vkapiapp.xcdatamodeld */,
 				A99381D123E2EADF00FF5839 /* Helper.swift */,
 				A9E9C18723E2F74C006D1EAC /* ReloadDataDelegate.swift */,
+				A93AA1C323E5290B008DADDB /* PostCellParentDelegate.swift */,
+				A9A7FFA623E562FE0072297E /* AppExtension.swift */,
 			);
 			path = vkapiapp;
 			sourceTree = "<group>";
@@ -115,6 +133,7 @@
 			children = (
 				A99381C723E1F10100FF5839 /* AccessTokenModel.swift */,
 				A99381CF23E2E71700FF5839 /* ProfileInfoModel.swift */,
+				A93AA1C123E46290008DADDB /* PostModel.swift */,
 			);
 			path = NetworkModels;
 			sourceTree = "<group>";
@@ -131,8 +150,10 @@
 		A99381CA23E2E3D900FF5839 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A99381CB23E2E3FD00FF5839 /* ProfileInfoCell.swift */,
-				A99381CC23E2E3FD00FF5839 /* ProfileInfoCell.xib */,
+				A93AA1B923E45DB4008DADDB /* ProfileInfoTableViewCell.swift */,
+				A93AA1BA23E45DB4008DADDB /* ProfileInfoTableViewCell.xib */,
+				A93AA1BD23E461FC008DADDB /* PostTableViewCell.swift */,
+				A93AA1BE23E461FC008DADDB /* PostTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -196,7 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90630AD23E1EC1C005BD9D8 /* LaunchScreen.storyboard in Resources */,
-				A99381CE23E2E3FD00FF5839 /* ProfileInfoCell.xib in Resources */,
+				A9A7FFA923E98B9F0072297E /* UserWall.storyboard in Resources */,
+				A93AA1C023E461FC008DADDB /* PostTableViewCell.xib in Resources */,
+				A93AA1BC23E45DB4008DADDB /* ProfileInfoTableViewCell.xib in Resources */,
+				A9A7FFAB23E98EAB0072297E /* Authorization.storyboard in Resources */,
 				A90630AA23E1EC1C005BD9D8 /* Assets.xcassets in Resources */,
 				A90630A523E1EC19005BD9D8 /* Main.storyboard in Resources */,
 			);
@@ -211,15 +235,19 @@
 			files = (
 				A90630A223E1EC19005BD9D8 /* LoginViewController.swift in Sources */,
 				A90630A823E1EC19005BD9D8 /* vkapiapp.xcdatamodeld in Sources */,
+				A93AA1BF23E461FC008DADDB /* PostTableViewCell.swift in Sources */,
+				A93AA1C223E46290008DADDB /* PostModel.swift in Sources */,
 				A9E9C18C23E42B46006D1EAC /* UserDefaultsManager.swift in Sources */,
 				A9E9C18A23E2FB5C006D1EAC /* UserWallTableViewController.swift in Sources */,
 				A90630B723E1EDF4005BD9D8 /* NetworkManager.swift in Sources */,
 				A906309E23E1EC19005BD9D8 /* AppDelegate.swift in Sources */,
 				A90630A023E1EC19005BD9D8 /* SceneDelegate.swift in Sources */,
 				A99381D223E2EADF00FF5839 /* Helper.swift in Sources */,
-				A99381CD23E2E3FD00FF5839 /* ProfileInfoCell.swift in Sources */,
 				A99381C823E1F10100FF5839 /* AccessTokenModel.swift in Sources */,
+				A9A7FFA723E562FE0072297E /* AppExtension.swift in Sources */,
+				A93AA1BB23E45DB4008DADDB /* ProfileInfoTableViewCell.swift in Sources */,
 				A99381D023E2E71700FF5839 /* ProfileInfoModel.swift in Sources */,
+				A93AA1C423E5290B008DADDB /* PostCellParentDelegate.swift in Sources */,
 				A9E9C18823E2F74C006D1EAC /* ReloadDataDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

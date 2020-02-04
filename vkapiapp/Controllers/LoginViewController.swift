@@ -34,7 +34,12 @@ class LoginViewController: UIViewController {
                         
                         DispatchQueue.main.async {
                             
-                            self.performSegue(withIdentifier: "AuthorizationSegue", sender: profileInfo)
+                            let userPageStoryBoard = UIStoryboard(name: "UserWall", bundle: nil)
+                            let navController = userPageStoryBoard.instantiateInitialViewController() as! UINavigationController
+                            let userPageVC = navController.viewControllers.first! as! UserWallTableViewController
+                            userPageVC.profileInfo = profileInfo
+                            
+                            UIApplication.setRootView(navController)
                         }
                     }
                 }
@@ -42,13 +47,13 @@ class LoginViewController: UIViewController {
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "AuthorizationSegue" {
-            let destinationViewController = segue.destination as! UserWallTableViewController
-            let profileInfo = sender as! ProfileInfoModel
-            destinationViewController.profileInfo = profileInfo
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if segue.identifier == "AuthorizationSegue" {
+//            let destinationViewController = segue.destination as! UserWallTableViewController
+//            let profileInfo = sender as! ProfileInfoModel
+//            destinationViewController.profileInfo = profileInfo
+//        }
+//    }
 }
 
 

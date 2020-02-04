@@ -102,5 +102,65 @@ class NetworkManager {
         }
     }
     
+    func getUserPostsResponse(complition: @escaping (UserPostsResponse?, Error?) -> Void) {
+        
+        let methodName = "wall.get"
+        let params = "owner_id=\(userID!)&count=100&filter=all"
+        let stringURL = "https://api.vk.com/method/\(methodName)?\(params)&access_token=\(access_token!)&v=5.103"
+        
+        if let url = URL(string: stringURL) {
+            
+            let session = URLSession.shared
+            
+            let task = session.dataTask(with: url) { data, response, error in
+                
+                if error != nil {
+                    
+                    complition(nil, error)
+                    
+                } else {
+                    
+                    guard let data = data else { return }
+
+                    let userPosts = try! JSONDecoder().decode(UserPosts.self, from: data)
+                    
+                    complition(userPosts.response, nil)
+                }
+            }
+            
+            task.resume()
+        }
+    }
+    
+    func getUserImage(for ownerID: String, complition: @escaping ([Post]?, Error?) -> Void) {
+        
+        let methodName = "wall.get"
+        let params = "owner_id=\(ownerID)&count=100&filter=all"
+        let stringURL = "https://api.vk.com/method/\(methodName)?\(params)&access_token=\(access_token!)&v=5.103"
+        
+        if let url = URL(string: stringURL) {
+            
+            let session = URLSession.shared
+            
+            let task = session.dataTask(with: url) { data, response, error in
+                
+                if error != nil {
+                    
+                    complition(nil, error)
+                    
+                } else {
+                    
+                    guard let data = data else { return }
+                    let userPosts = try! JSONDecoder().decode(UserPosts.self, from: data)
+                    let formattedPosts = userPosts.response.items
+                    
+                    complition(formattedPosts, nil)
+                }
+            }
+            
+            task.resume()
+        }
+    }
+    
     
 }

@@ -1,21 +1,22 @@
 //
-//  ProfileInfoCell.swift
+//  ProfileInfoTableViewCell.swift
 //  vkapiapp
 //
-//  Created by Сергей Шабельник on 30.01.2020.
+//  Created by Сергей Шабельник on 31.01.2020.
 //  Copyright © 2020 Сергей Шабельник. All rights reserved.
 //
 
 import UIKit
 
-class ProfileInfoCell: UITableViewCell{
+class ProfileInfoTableViewCell: UITableViewCell{
 
     weak var reloadDataDelegate: ReloadDataDelegate!
     
     @IBOutlet weak var avatarImageView: UIImageView!
+    @IBOutlet weak var editButton: UIButton!
     @IBOutlet weak var userNameLabel: UILabel!
     @IBOutlet weak var ageAndCityLabel: UILabel!
-    @IBOutlet weak var editButton: UIButton!
+    
     
     func setupCell (for profileInfo: ProfileInfoModel) {
         
